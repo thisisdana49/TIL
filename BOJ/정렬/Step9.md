@@ -5,10 +5,10 @@
 ---
 ### 풀이
 ```
-const input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
+const input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');****
 
 const words = new Set();
-const sortedWords = new Map();
+const sortedWords = new Map();****
 
 for (let i = 1; i <= input[0]; i++) {
     words.add(input[i]);
